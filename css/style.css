@@ -1,0 +1,335 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.logo, .chip, .number, .date, .name, .master, .text, .tell, .color, .ccv_bg, .ccv, .text_2, .nfc, .text_3, .text_4, .logo_back{
+	position: absolute;
+}
+
+.container {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	position: relative;
+	width: 450px;
+	height: 270px;
+	background-color: #96ff5d;
+	border-radius: 20px;
+	overflow: hidden;
+	margin: 20px;
+}
+.logo {
+	top:15px;
+	left: 15px;
+
+}
+
+.logo_sber {
+	width: 40px;
+}
+
+.chip {
+	top:80px;
+	left:50px;
+}
+
+.chip_sber {
+	width: 50px;
+}
+
+.number {
+	font-size: 25px;
+	top: 140px;
+	left: 50px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	word-spacing: 10px;
+}
+
+.date {
+	top: 195px;
+	left: 200px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.name {
+	top: 220px;
+	left: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.master {
+	top: 200px;
+	left: 340px;
+}
+
+.master_sber {
+	width: 90px;
+}
+
+
+.text {
+	top: 10px;
+	left: 10px;
+	font-size: 9px;
+	font-weight: bold;
+}
+
+.tell {
+	top: 5px ;
+	left: 250px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.color {
+	top: 30px;
+	width: 100%;
+	height: 60px;
+	background-color: black;
+}
+
+.ccv_bg {
+	top: 100px;
+	left: 20px;
+	width: 180px;
+	height: 35px;
+	background-color: #d5d5d5;
+}
+
+.ccv{
+	top: 105px;
+	left: 160px;
+	font-size: 20px;
+}
+
+.text_2 {
+	top: 100px;
+	left: 240px;
+	width: 170px;
+	height: auto;
+	font-weight: bold;
+}
+
+
+.nfc {
+	top: 190px ;
+	left: 40px;
+
+}
+
+.nfc_sber {
+	width:80px;
+
+}
+
+.logo_back {
+	top: 177px;
+	left: 240px;
+}
+
+.logo_back_sber {
+	width: 25px;
+}
+
+.text_3 {
+	top: 180px ;
+	left: 273px;
+	width: 200px;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 18px;
+
+}
+
+.text_4 {
+	top: 210px ;
+	left: 240px;
+	width: 180px;
+	font-size: 11px;
+	font-weight: bold;
+
+}
+
+
+@media only screen and (max-width: 990px) {
+
+	.container {
+		width: 100%;
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+
+}
+
+
+@media only screen and (max-width: 360px) {
+
+	.container {
+		min-width: 100%;
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.card{
+		max-width: 95%;
+		height: 190px;
+	}
+
+
+	.logo {
+	top:15px;
+	left: 15px;
+
+	}
+
+	.logo_sber {
+		width: 25px;
+	}
+
+	.chip {
+		top:60px;
+		left:30px;
+	}
+
+	.chip_sber {
+		width: 35px;
+	}
+
+	.number {
+		font-size: 18px;
+		top: 100px;
+		left:25px;
+		font-weight: bold;
+		letter-spacing: 2px;
+		word-spacing: 10px;
+	}
+
+	.date {
+		top: 130px;
+		left: 170px;
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+	.name {
+		top: 150px;
+		left: 10px;
+		font-size: 16px;
+		font-weight: bold;
+		letter-spacing: 1px;
+	}
+
+	.master {
+		top: 140px;
+		left: 270px;
+	}
+
+	.master_sber {
+		width: 50px;
+	}
+
+
+	.text {
+		top: 10px;
+		left: 10px;
+		font-size: 8px;
+		font-weight: bold;
+	}
+
+	.tell {
+		top: 7px ;
+		left: 180px;
+		font-size: 14px;
+		font-weight: bold;
+	}
+
+	.color {
+		top: 30px;
+		width: 100%;
+		height: 40px;
+		background-color: black;
+	}
+
+	.ccv_bg {
+		top: 80px;
+		left: 10px;
+		width: 150px;
+		height: 30px;
+		background-color: #d5d5d5;
+	}
+
+	.ccv{
+		top: 83px;
+		left: 125px;
+		font-size: 18px;
+	}
+
+	.text_2 {
+		top: 77px;
+		left: 180px;
+		width: 150px;
+		height: auto;
+		font-size: 14px;
+		font-weight: bold;
+	}
+
+
+	.nfc {
+		top: 140px ;
+		left: 40px;
+
+	}
+
+	.nfc_sber {
+		width:60px;
+
+	}
+
+	.logo_back {
+		top: 133px;
+		left: 180px;
+	}
+
+	.logo_back_sber {
+		width: 18px;
+	}
+
+	.text_3 {
+		top: 135px ;
+		left: 205px;
+		width: 200px;
+		font-weight: bold;
+		font-family: Arial;
+		font-size: 12px;
+
+	}
+
+	.text_4 {
+		top: 152px ;
+		left: 180px;
+		width: 150px;
+		font-size: 10px;
+		font-weight: bold;
+
+	}
+
+
+}
