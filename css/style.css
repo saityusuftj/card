@@ -191,7 +191,7 @@
 
 	.card{
 		max-width: 95%;
-		height: 190px;
+		height: 215px;
 	}
 
 
@@ -288,7 +288,7 @@
 		left: 200px;
 		width: 150px;
 		height: auto;
-		font-size: 14px;
+		font-size: 12px;
 		font-weight: bold;
 	}
 
